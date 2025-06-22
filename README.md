@@ -12,4 +12,4 @@
 
 ## 모델 파일
 - 크기: 577MB
-- 다운로드 링크: [추후 업데이트]
+- 다운로드 링크: [hugging-face-clip-medication-model](https://huggingface.co/lolry/clip-medication-model)
