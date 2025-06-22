@@ -26,7 +26,7 @@
     "vocab_size": 49408
   },
   "torch_dtype": "float32",
-  "transformers_version": "4.51.3",
+  "transformers_version": "4.52.2",
   "vision_config": {
     "attention_dropout": 0.0,
     "dropout": 0.0,
