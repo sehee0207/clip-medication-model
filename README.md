@@ -1,15 +1,6 @@
 # CLIP Medication Model
-의료 이미지와 텍스트를 연결하는 CLIP 모델입니다.
+알약 블리스터팩, 안약, 연고 이미지와 텍스트를 연결하는 CLIP 모델입니다.
 
-## 필요한 라이브러리
-- transformers
-- torch
-- (기타 사용한 라이브러리들)
-
-## 사용법
-1. 노트북 파일 실행
-2. 모델 파일은 별도 다운로드 필요 (용량 문제로 GitHub에 업로드하지 않음)
-
-## 모델 파일
+## 모델
 - 크기: 577MB
 - 다운로드 링크: [hugging-face-clip-medication-model](https://huggingface.co/lolry/clip-medication-model)
