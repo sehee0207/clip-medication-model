@@ -5,6 +5,7 @@ import torch
 from PIL import Image
 from transformers import CLIPProcessor, CLIPModel
 import os
+from google.colab import userdata
 import cv2
 import numpy as np
 import requests
@@ -150,7 +151,7 @@ def preprocess_image_for_ocr(image):
         return image
 
 def extract_text_from_image_with_clova(image_path: str):
-    secret_key = "bGpQUFpLa2lkRlhZaHZCcUVLa3pKdXdEckVYZEh4QlA="
+    secret_key = userdata.get("OCR_CLOVA")
     api_url = "https://s79a9gvq9a.apigw.ntruss.com/custom/v1/42492/9274a7c96357207aa7e436c070ceba3fecf0b7f91679a2a8f72283f165493853/general"
 
     file_size = os.path.getsize(image_path)
